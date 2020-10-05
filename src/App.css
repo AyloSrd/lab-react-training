@@ -35,5 +35,43 @@ body * {
 .pBox {
 	border: solid 1px black;
 	margin-bottom: 20px;
-	padding: 10px;;
+	padding: 10px;
+}
+
+/*iteration 5*/
+.CreditCard {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	padding: 20px;
+	border-radius: 20px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.CreditCard:last-child {
+	margin-right: 0;
+}
+
+.CreditCard img {
+	height: 20px;
+	align-self: flex-end;
+}
+
+.CreditCard h1 {
+	text-align: right;
+	margin: 40px 0;
+}
+
+.expDateAndBank {
+	display: flex;
+}
+
+.expDateAndBank p:first-child {
+	width: 40%;
+}
+
+.Wallet {
+	display: flex;
+	flex-wrap: wrap;
 }
