@@ -3,7 +3,7 @@ import IdCard from './IDCard'
 
 const Cards = () => {
 	return (
-		<div>
+		<div className="Cards Cont">
 			<IdCard
 				lastName='Doe'
 				firstName='John'

@@ -1,7 +1,19 @@
+body * {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.Cont {
+	padding: 20px;
+}
+
+/*Iteration 1*/
+
 .IDCard {
 	border: solid 1px black;
-	width: 100%;
-	height: 128px;
+	height: 130px;
 	margin-bottom: 20px;
 }
 
@@ -15,4 +27,13 @@
 
 .IDCard span {
 	font-weight: bold;
+}
+
+
+/*Iteration 2*/
+
+.Greetings {
+	border: solid 1px black;
+	margin-bottom: 20px;
+	padding: 10px;;
 }
